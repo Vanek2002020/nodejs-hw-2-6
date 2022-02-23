@@ -1,5 +1,3 @@
-const {idValidation} = require('./contacts/index')
+const authenticate = require('./authenticate');
 
-module.exports = {
-    idValidation
-}
+module.exports = { authenticate };
